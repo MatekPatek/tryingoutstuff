@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	/*rbga(225, 225, 225, 0);*/
+    /*background-color: #24252A;*/
+}
+
+body {
+	background-image: url(wallpaper8.jpg);
+	background-size: cover;
+	background-origin: padding-box;
+	background-position: inherit;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	position: center;
+}
+
+li, a, button {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #ecf0f1;
+	text-decoration: none;
+	/*list-style: none; mogao bi ovdje 
+	  napravit ovo ali ne bi se odnosilo samo na li*/
+
+}
+
+/*
+li {
+	
+	list-style: none;
+   (ovo bi imalo vise smisla)
+}
+*/
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 10%;
+	padding-right: 10%;
+	background-color: #24252A;
+
+	}
+
+.logo {
+	cursor: pointer;
+	}
+
+.nav__links  {
+	list-style: none;
+}
+
+.nav__links li {
+	display: inline-block;
+	padding-top: 0px; 
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.nav__links li a {
+	transition: all 0.3s ease 0.01s;
+}
+
+.nav__links li a:hover {
+	color: #0088a9;
+}
+
+button {
+	padding: 9px 25px;
+	background-color: rgba(0, 136, 169, 1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0.01s;
+}
+
+button:hover {
+	background-color: rgba(0, 136, 169, 0.8);
+}
+
+.container1 h1 {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 800;
+	font-size: 100px;
+	color: lightyellow;
+	background-color: rgba(0, 136, 169, 0.8);
+	text-decoration: none;
+	display: inline-flex;
+	justify-content: center;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	padding: 9px 25px 20px 0px;
+}
+
+.container1 p {
+	display: inline-flex;
+	flex-direction: column;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	text-decoration: none;
+	text-indent: 3%;
+	color: #ecf0f1;
+	background-color: rgba(36, 37, 42, 0.8);
+	margin-right: 50%;
+	margin-left: 5%;
+	padding: 5%;
+	border-bottom-right-radius: 20px;
+}
